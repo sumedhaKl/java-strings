@@ -4,7 +4,7 @@ public class Strings2{
     public static void main(String[] args){ 
         Scanner input = new Scanner(System.in);
         System.out.print("Enter employee's name: ");
-        int employeeName = input.nextInt(); 
+        String employeeName = input.nextLine(); 
 
         int numberOfHoursWorkedInAWeek = 0; 
         double hourlyPayRate = 0; 
