@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 
-public class Strings2{ 
+class Strings2{ 
     public static void main(String[] args){ 
         Scanner input = new Scanner(System.in);
         System.out.print("Enter employee's name: ");
@@ -20,3 +20,4 @@ public class Strings2{
         System.out.println("Employee Name:" + employeeName + "Hours Worked:" + numberOfHoursWorkedInAWeek + "Pay Rate:" + hourlyPayRate + grossPay+ "Federal Withholding" + federalTaxWithholdingRate + "State Withholding:" + stateTaxWithholdingRate + "Total Deduction:" + totalDeduction + "Net Pay:" + netPay); 
     } 
 }
+
