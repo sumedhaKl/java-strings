@@ -6,18 +6,17 @@ class Strings2{
         System.out.print("Enter employee's name: ");
         String employeeName = input.nextLine(); 
 
-        int numberOfHoursWorkedInAWeek = 0; 
-        double hourlyPayRate = 0; 
-        int federalTaxWithholdingRate = 0; 
-        int stateTaxWithholdingRate = 0;
-        int totalDeduction = federalTaxWithholdingRate + stateTaxWithholdingRate; 
         int grossPay = 100;
+        System.out.print("\nEnter number of hours worked in a week:"); 
+        int numberOfHoursWorkedInAWeek = input.nextInt();
+        System.out.print("\nEnter hourly pay rate;");
+        double hourlyPayRate = input.nextDouble(); 
+        System.out.print("\nEnter federal tax withholding rate:"); 
+        int federalTaxWithholdingRate = input.nextInt();
+        System.out.print("\nEnter state tax withholding rate:"); 
+        int stateTaxWithholdingRate = input.nextInt();
+        int totalDeduction = federalTaxWithholdingRate + stateTaxWithholdingRate; 
         int netPay = grossPay-totalDeduction;
-        System.out.print("Enter number of hours worked in a week:"); 
-        System.out.print("Enter hourly pay rate;"); 
-        System.out.print("Enter federal tax withholding rate:"); 
-        System.out.print("Enter state tax withholding rate:"); 
-        System.out.println("Employee Name:" + employeeName + "Hours Worked:" + numberOfHoursWorkedInAWeek + "Pay Rate:" + hourlyPayRate + grossPay+ "Federal Withholding" + federalTaxWithholdingRate + "State Withholding:" + stateTaxWithholdingRate + "Total Deduction:" + totalDeduction + "Net Pay:" + netPay); 
+        System.out.println("\nEmployee Name:" + employeeName + "Hours Worked:" + numberOfHoursWorkedInAWeek + "Pay Rate:" + hourlyPayRate + grossPay+ "Federal Withholding" + federalTaxWithholdingRate + "State Withholding:" + stateTaxWithholdingRate + "Total Deduction:" + totalDeduction + "Net Pay:" + netPay); 
     } 
 }
-
