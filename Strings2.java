@@ -1,5 +1,4 @@
-import java.util.Scanner; 
-import java.text.DecimalFormat;
+import java.util.Scanner;
 
 class Strings2{ 
     public static void main(String[] args){ 
@@ -18,7 +17,7 @@ class Strings2{
         int stateTaxWithholdingRate = input.nextInt();
         int totalDeduction = federalTaxWithholdingRate + stateTaxWithholdingRate; 
         int netPay = grossPay-totalDeduction;
-        System.out.println("\nEmployee Name:" + employeeName + "Hours Worked:" + numberOfHoursWorkedInAWeek + "Pay Rate:" + hourlyPayRate + grossPay+ "Federal Withholding" + federalTaxWithholdingRate + "State Withholding:" + stateTaxWithholdingRate + "Total Deduction:" + totalDeduction + "Net Pay:" + netPay); 
+        System.out.println("\nEmployee Name:" + employeeName + "Hours Worked:" + numberOfHoursWorkedInAWeek + "Pay Rate:" + hourlyPayRate + "Gross Pay:" + grossPay+ "Deductions: \nFederal Withholding" + federalTaxWithholdingRate + "\nState Withholding:" + stateTaxWithholdingRate + "\nTotal Deduction:" + totalDeduction + "Net Pay" + netPay);
+        input.close();
     } 
 }
-
