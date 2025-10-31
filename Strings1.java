@@ -18,6 +18,7 @@ public class Strings1 {
         System.out.println(2);
         break;
         case "D":
+        x = "" + 1;
         System.out.println(1);
         break;
         case "F":
