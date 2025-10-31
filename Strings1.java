@@ -19,9 +19,11 @@ public class Strings1 {
         break;
         case "D":
         System.out.println(1);
+        break;
         case "F":
         x = "" + 0;
         System.out.println(0);
+        break;
         default:
         System.out.println("invalid input");
     } return x;
