@@ -12,12 +12,12 @@ public class Strings1 {
         case "B":
         x = "" + 3;
         System.out.println(3);
+        break;
         case "C":
         x = "" + 2;
         System.out.println(2);
         break;
         case "D":
-        x = "" + 1;
         System.out.println(1);
         case "F":
         x = "" + 0;
@@ -36,4 +36,5 @@ public class Strings1 {
     String s = input.nextLine();
     letterGradeToNumber(s);
   }
+
 }
