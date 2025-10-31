@@ -5,22 +5,41 @@ public class Strings1 {
   public static String letterGradeToNumber(String s){
     String x = null;
     switch (s) {
-        case "A", "a":
+        case "A":
         x = "" + 4;
         System.out.println(4);
         break;
-        case "B", "b":
+        case "B":
         x = "" + 3;
         System.out.println(3);
         break;
-        case "C", "c":
+        case "C":
         x = "" + 2;
         System.out.println(2);
         break;
-        case "D", "d":
+        case "D":
         System.out.println(1);
         break;
-        case "F", "f":
+        case "F":
+        x = "" + 0;
+        System.out.println(0);
+        break;
+        case "a":
+        x = "" + 4;
+        System.out.println(4);
+        break;
+        case "b":
+        x = "" + 3;
+        System.out.println(3);
+        break;
+        case "c":
+        x = "" + 2;
+        System.out.println(2);
+        break;
+        case "d":
+        System.out.println(1);
+        break;
+        case "f":
         x = "" + 0;
         System.out.println(0);
         break;
