@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Strings1 {
+
+  public static String letterGradeToNumber(String s){
+    String x = null;
+    switch (s) {
+        case "A":
+        x = "" + 4;
+        System.out.println(4);
+        break;
+        case "B":
+        x = "" + 3;
+        System.out.println(3);
+        case "C":
+        x = "" + 2;
+        System.out.println(2);
+        break;
+        case "D":
+        x = "" + 1;
+        System.out.println(1);
+        case "F":
+        x = "" + 0;
+        System.out.println(0);
+        default:
+        System.out.println("invalid input");
+    } return x;
+    
+
+  }
+
+
+  public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
+    System.out.print("Enter a letter grade:");
+    String s = input.nextLine();
+    letterGradeToNumber(s);
+  }
+}
