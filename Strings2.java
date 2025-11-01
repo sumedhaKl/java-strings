@@ -19,7 +19,7 @@ class Strings2{
             stateTaxWithholdingRate = stateTaxWithholdingRate * 100;
             double totalDeduction = federalTaxWithholdingRate + stateTaxWithholdingRate;
             double netPay = grossPay-totalDeduction;
-            System.out.println("\nEmployee Name: " + employeeName + "\nHours Worked: " + numberOfHoursWorkedInAWeek + "\nPay Rate: " + hourlyPayRate + "\nGross Pay: " + grossPay+ "\nDeductions: \nFederal Withholding: " + federalTaxWithholdingRate + "\nState Withholding: " + stateTaxWithholdingRate + "\nTotal Deduction: " + totalDeduction + "\nNet Pay: " + netPay);
+            System.out.println("\nEmployee Name: " + employeeName + "\nHours Worked: " + numberOfHoursWorkedInAWeek + "\nPay Rate: $" + hourlyPayRate + "\nGross Pay: $" + grossPay+ "\nDeductions: \nFederal Withholding: $" + federalTaxWithholdingRate + "\nState Withholding: $" + stateTaxWithholdingRate + "\nTotal Deduction: $" + totalDeduction + "\nNet Pay: $" + netPay);
         }
     } 
 }
