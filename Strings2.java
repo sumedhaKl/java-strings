@@ -7,14 +7,14 @@ class Strings2{
             String employeeName = input.nextLine();
             
             double grossPay = 100.00;
-            System.out.print("\nEnter number of hours worked in a week:");
+            System.out.print("\nEnter number of hours worked in a week: ");
             double numberOfHoursWorkedInAWeek = input.nextDouble();
-            System.out.print("\nEnter hourly pay rate:");
+            System.out.print("\nEnter hourly pay rate: ");
             double hourlyPayRate = input.nextDouble();
-            System.out.print("\nEnter federal tax withholding rate:");
+            System.out.print("\nEnter federal tax withholding rate: ");
             double federalTaxWithholdingRate = input.nextDouble();
             federalTaxWithholdingRate = federalTaxWithholdingRate * 100;
-            System.out.print("\nEnter state tax withholding rate:");
+            System.out.print("\nEnter state tax withholding rate: ");
             double stateTaxWithholdingRate = input.nextDouble();
             stateTaxWithholdingRate = stateTaxWithholdingRate * 100;
             double totalDeduction = federalTaxWithholdingRate + stateTaxWithholdingRate;
@@ -23,5 +23,3 @@ class Strings2{
         }
     } 
 }
-
-
