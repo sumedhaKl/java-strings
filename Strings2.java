@@ -6,7 +6,7 @@ class Strings2{
             System.out.print("Enter employee's name: ");
             String employeeName = input.nextLine();
             
-            double grossPay = 100;
+            double grossPay = 100.00;
             System.out.print("\nEnter number of hours worked in a week:");
             double numberOfHoursWorkedInAWeek = input.nextDouble();
             System.out.print("\nEnter hourly pay rate:");
@@ -23,3 +23,4 @@ class Strings2{
         }
     } 
 }
+
